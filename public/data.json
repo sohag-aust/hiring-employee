@@ -1,0 +1,82 @@
+[
+    {
+        "id":1,
+        "name": "Gennady Korotkevich",
+        "codeforcesRating": 3707,
+        "age": 26,
+        "country":"Belarus",
+        "salary":704500
+    },
+
+    {
+        "id":2,
+        "name": "Benjamin Qi",
+        "codeforcesRating": 3672,
+        "age": 28,
+        "country":"America",
+        "salary":552000
+    },
+
+    {
+        "id":3,
+        "name": "Petr Mitrichev",
+        "codeforcesRating": 3229,
+        "age": 32,
+        "country":"Switzerland",
+        "salary":496400
+    },
+
+    {
+        "id":4,
+        "name": "Egor Kulikov",
+        "codeforcesRating": 3211,
+        "age": 16,
+        "country":"Germany",
+        "salary":752832
+    },
+
+    {
+        "id":5,
+        "name": "Kamil Debowski",
+        "codeforcesRating": 3000,
+        "age": 36,
+        "country":"Poland",
+        "salary":591867
+    },
+
+    {
+        "id":6,
+        "name": "Mingyang Deng",
+        "codeforcesRating": 3480,
+        "age": 21,
+        "country":"China",
+        "salary":919563
+    },
+
+    {
+        "id":7,
+        "name": "Xiuhan Wang",
+        "codeforcesRating": 3338,
+        "age": 30,
+        "country":"China",
+        "salary":485639
+    },
+
+    {
+        "id":8,
+        "name": "Alex Joma",
+        "codeforcesRating": 3303,
+        "age": 40,
+        "country":"Russia",
+        "salary":382910
+    },
+
+    {
+        "id":9,
+        "name": "Errichto",
+        "codeforcesRating": 3283,
+        "age": 22,
+        "country":"Bangladesh",
+        "salary":1043921
+    }
+]

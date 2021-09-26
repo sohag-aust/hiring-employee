@@ -1,0 +1,52 @@
+.programmer{
+    border: 1px solid rgb(58, 52, 52);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.image-style{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.card-style{
+    background-color: rgba(4, 204, 161, 0.253);
+}
+
+.card-text-style{
+    line-height: 10px;
+}
+
+.text-style{
+    font-size: 18px;
+    color: rgba(139, 5, 50, 0.753);
+}
+
+.value-style{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-regular{
+    background-color: rgb(153, 218, 32);
+    width: 150px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.card-bottom{
+    text-align: center;
+    margin: auto;
+}
+
+.fab {
+    margin-top: 10px;
+    font-size: 60px;
+    width: 75%;
+}

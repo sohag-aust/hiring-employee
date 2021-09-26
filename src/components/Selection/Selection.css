@@ -1,0 +1,23 @@
+.selection{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.programmers-style{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    border: 1px solid red;
+    margin: 2px;
+}
+
+.selected-programmer{
+    border: 1px solid green;
+    margin: 2px;
+}
+
+.select-title{
+    text-align: center;
+    margin: 10px;
+    color: crimson;
+}

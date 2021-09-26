@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import  React, {useState} from 'react';
 import './App.css';
 
+import Header from './components/Header/Header';
+import Selection from './components/Selection/Selection';
+
 function App() {
+
+  const budget = 5000000;
+  const [remainingBudget, setRemainingBudget] = useState(budget);
+
+  const backgroundStyle = { 
+    backgroundColor: '#9c9b9a',
+    width: '100%',
+    backgroundRepeat: 'no-repeat'
+  }
+
+  const handleRemainingBudget = (salary) => {
+    const newRemainingBudget = remainingBudget-salary;
+    setRemainingBudget(newRemainingBudget);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={backgroundStyle}>
+      <Header budget={budget} remainingBudget={remainingBudget}/>
+      <Selection budget={budget} 
+                 remainingBudget={remainingBudget} 
+                 handleRemainingBudget={handleRemainingBudget}/>
     </div>
   );
 }

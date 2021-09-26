@@ -1,0 +1,28 @@
+.header{
+    background-color: rgba(231, 220, 220, 0.37);
+    text-align: center;
+    padding: 5px;
+}
+
+.top-header{
+    color: rgb(175, 21, 34);
+    font-weight: 500;
+    margin-top: -10px;
+    padding-top: 20px;
+    line-height: 20px;
+    padding-bottom: 15px;
+}
+
+.description{
+    color: rgb(21, 74, 75);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.budget{
+    font-size: 26px;
+    font-weight: 500;
+    color: rgba(133, 5, 105, 0.863);
+    line-height: 15px;
+}

@@ -1,0 +1,19 @@
+.hired{
+    display: flex;
+    width: 75%;
+    text-align: center;
+    align-items: center;
+    border: 1px solid rgb(243, 116, 141);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: rgba(56, 179, 111, 0.534);
+}
+
+.hiring-desc{
+    text-align: center;
+}
+
+.font-dollar{
+    font-size: 24px;
+}
